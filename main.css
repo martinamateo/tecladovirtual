@@ -1,0 +1,109 @@
+*{
+    margin:0;
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1000px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#app{
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+}
+
+#keyboard-container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 600px;
+    gap: 5px;
+    margin: 50px auto;
+
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 50px;
+    gap: 5px;
+    margin: 40px auto;
+
+}
+
+.key-space {
+   
+    width: 900px;
+    height: 35px;
+}
+.key:hover {
+    background-color: gray;
+}
+
+
+.key-empty {
+    width: 25px;
+    height: 5px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.key-normal {
+    width: 70px;
+    height: 35px;
+}
+
+.key-mayus {
+    width: 120px;
+    height: 70px; 
+}
+
+.key-shift {
+    width: 80px;
+    height: 70px;
+}
+
+
+
+.layer {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    justify-content: center;
+    width: 100px;
+    
+    
+}
+
+.key {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
